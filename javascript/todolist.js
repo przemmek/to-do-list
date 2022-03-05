@@ -47,16 +47,22 @@
 
         for (const task of tasks) {
             htmlString += `
-                <li${task.done ? " style=\"text-decoration: line-through\"" : ""}>
+                <li
+                class="list__item${task.done ? " list__item-done" : ""}">
 
                 <button class="js-done">Zrobione</button>
                 <button class="js-remove">Usuń</button>
-                    ${task.content}
+                ${task.content}
                 </li>
             `;
         }
 
         document.querySelector(".js-tasks").innerHTML = htmlString;
+
+        document.querySelector(".js-stats").innerText = `
+        Do zrobienia: ${tasks.length}\n
+        Ukończono: ${tasks.filter(task => task.done).length}
+        `;
 
         bindEvents();
     };

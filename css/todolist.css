@@ -23,3 +23,21 @@ html {
     padding: 5px;
     border: 0px;
 }
+
+.button {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    background-color: #209e20a2;
+}
+
+.button__task--remove {
+    background-color: #e92020c4;
+}
+
+.task__content {
+    word-break: break-word;
+    min-width: 91%;
+    padding: 5px;
+}

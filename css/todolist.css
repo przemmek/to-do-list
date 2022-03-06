@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+.list__item {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.list__item--done {
+    text-decoration: line-through;
+}
+
+.addTaskButton {
+    background-color: teal;
+    color: white;
+    padding: 5px;
+    border: 0px;
+}

@@ -12,6 +12,8 @@
         })
 
         render();
+
+        document.querySelector(".js-newTask").focus();
     }
 
     const removeTask = (taskIndex) => {
@@ -77,6 +79,7 @@
         }
 
         addNewTask(newTaskContent);
+        document.querySelector(".js-newTask").value = "";
     };
 
     const init = () => {

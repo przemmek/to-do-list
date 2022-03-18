@@ -6,8 +6,16 @@
     background-color: #209e20a2;
 }
 
+.button:hover {
+    background-color: #2bdf2ba2;
+}
+
 .button__task--remove {
-    background-color: #e92020c4;
+    background-color: #bb1919c4;
+}
+
+.button__task--remove:hover {
+    background-color: #ee3737c4;
 }
 
 .addTaskButton {
@@ -15,4 +23,8 @@
     color: white;
     padding: 5px;
     border: 0px;
+}
+
+.addTaskButton:hover {
+    background-color: #099e9e;
 }

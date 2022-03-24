@@ -6,8 +6,6 @@ html {
     box-sizing: inherit;
 }
 
-font-family: 'Roboto Serif', serif;
-
 .list__item {
     padding: 5px;
     display: flex;
@@ -20,6 +18,7 @@ font-family: 'Roboto Serif', serif;
 
 .task__content {
     word-break: break-word;
-    min-width: 91%;
+    display: flex;
+    flex-grow: 1;
     padding: 5px;
 }

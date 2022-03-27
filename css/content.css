@@ -12,17 +12,13 @@
     margin: 2px 0;
 }
 
-.content__box {
+.form {
     background-color: white;
     padding: 20px;
     margin: 2px 0;
-}
-
-.content__box--newTask {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-
 }
 
 .content__taskList {
@@ -30,19 +26,19 @@
     padding: 10px;
 }
 
-.content__newTask {
+.form__newTask {
     display: flex;
     flex-grow: 1;
     margin-right: 5px;
 }
 
 @media (max-width: 677px) {
-    .content__box--newTask {
+    .form {
         display: flex;
         flex-direction: column;
     }
 
-    .content__newTask {
+    .form__newTask {
         min-width: 100%;
         margin-bottom: 5px;
     }

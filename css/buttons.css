@@ -19,7 +19,7 @@
     background-color: #ee3737c4;
 }
 
-.addTaskButton {
+.form__addTaskButton {
     background-color: #087777;
     color: white;
     padding: 5px;
@@ -27,7 +27,7 @@
     transition: 0.5s;
 }
 
-.addTaskButton:hover {
+.form__addTaskButton:hover {
     background-color: #099e9e;
     transform: scale(1.1);
 }
